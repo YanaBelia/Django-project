@@ -1,0 +1,27 @@
+{% extends 'my_site/other/orders.html'%}
+{% load static %}
+{% block content %}
+<head>
+  <link rel="stylesheet" href="{% static 'css/detail.css' %}">
+</head>
+  <div class="post-detail">
+    <div class="col-md-6">
+    {% if product.photo %}
+      <p><img src="{{product.photo.url}}" ></p>
+    {% endif %}
+    <h1>{{product.title}}</h1>
+    <p class="price">{{ product.price }} UAH</p>
+
+    <form action="{% url 'cart:cart_add' product.id %}" method="post">
+      {{ cart_product_form }}
+      {% csrf_token %}
+      <input type="submit" value="Go to cart">
+    </form>
+    <p class="last">Information updated {{product.time_update|date:"d-m-Y H:i:s"}}</p>
+  </div>
+</div>
+<div  class="content">
+<div class="col-md-6"><h1>{{ product.content|truncatewords:100}}</h1></div>
+</div>
+
+{% endblock %}

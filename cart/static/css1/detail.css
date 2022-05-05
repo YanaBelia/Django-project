@@ -1,0 +1,72 @@
+div.cart{
+  padding:20px;
+  margin-bottom:30px;
+  background:#efefef;
+}
+.cart{
+  text-align:justify;
+}
+.cart img{
+  width: 150px;
+  float:left;
+  padding:0px 20px 5px 0px;
+
+}
+
+
+ h1 {
+  margin-bottom:7px;
+  font-family: 'Andale Mono', monospace;
+  font-size:25px;
+
+}
+
+div.total{
+  background:#FFE4B5;
+  font-weight:bold;
+  height:25px;
+
+}
+
+
+
+.total p{
+  color:#4682B4;
+  font-family: 'Andale Mono', monospace;
+  text-align:right;
+}
+
+p{
+  font-family: 'Andale Mono', monospace;
+}
+
+.btn3 {
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+  border: 1px solid white;
+  padding: 0 1rem;
+  background:#efefef;
+
+  font-family: 'Andale Mono', monospace;
+
+}
+
+.title-text {
+  text-align: center;
+}
+mark{
+  font-family: 'Andale Mono', monospace;
+}
+
+.myform form{
+  margin-left:10px;
+  margin-bottom:40px;
+  margin-top:40px;
+}
+.myorder div{
+  background:#efefef;
+
+
+}

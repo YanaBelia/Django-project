@@ -1,0 +1,78 @@
+.logo {
+  margin-right: auto;
+  width: 51px;
+  height: 51px;
+
+}
+h1.name{
+  color: #FFE4B5;
+  font-family: 'Andale Mono', monospace;
+  margin-right: 18%;
+  margin-top: 5%;
+  font-size:100px;
+  margin-top: 5%;
+}
+li a {
+  font-family: 'Andale Mono', monospace;
+}
+p{
+  margin-right: 23%;
+  margin-top: 2%;
+}
+.btn1 {
+  height:100px;
+  width:200px;
+  font-family: 'Andale Mono', monospace;
+}
+
+.icon-bar{
+  background: #FFE4B5;
+}
+.btn2 {
+
+  background: #4682B4;
+}
+
+.cart-menu{
+  margin-right:auto;
+}
+
+form{
+  font-family: 'Andale Mono', monospace;
+}
+
+.type1{
+  font-family: 'Andale Mono', monospace;
+}
+
+
+img.img-article-left {
+  width: 350px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 0 10px 10px 0;
+
+}
+#border{
+  display: block;
+  margin-top:19px;
+  border-bottom: 2px dotted #DCDCDC;
+  border-left: 2px dotted #DCDCDC;
+  font-family: 'Andale Mono', monospace;
+  font-size: 18px;
+
+}
+.list-articles{
+  text-align: center;
+  background:#FFFFE0;
+}
+
+#footer {
+    position: fixed;
+    left: 0; bottom: 0;
+    padding-left:5px;
+    padding-top:2px;
+    color: black;
+    width: 100%;

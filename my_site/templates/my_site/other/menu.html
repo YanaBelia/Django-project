@@ -1,0 +1,17 @@
+{% extends 'my_site/base.html' %}
+{% load static %}
+{% block image %}
+  {% static "images/menu.jpg" %}
+{% endblock %}
+{% block content %}
+    <h1 class="name" align="right">Dolce Vita</h1>
+    <p align="right">
+    <button type="button" class="btn1 btn btn-light" ><a href="{% url 'my_site:orders' %}">Go to products</a></button>
+    </p>
+
+    <tr><td valign=top>
+    	<div id="footer">
+    		<p>&copy; 2022</p>
+    	</div>
+    </td></tr>
+{% endblock %}

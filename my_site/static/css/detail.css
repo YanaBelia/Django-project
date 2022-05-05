@@ -1,0 +1,48 @@
+.post-detail {
+  text-align:justify;
+
+}
+
+.post-detail .price {
+  color:#333;
+  font-size:20px;
+  font-weight:bold;
+}
+
+.post-detail img {
+  width:70%;
+  float:left;
+  padding:0 20px 20px 0;
+}
+
+.post-detail h1 {
+  margin-bottom:0;
+  font-family: 'Andale Mono', monospace;
+}
+
+.post-detail p {
+  font-family: 'Andale Mono', monospace;
+  margin-top:10px;
+}
+
+.post-detail .last{
+  margin-top:280px;
+  font-size:18px;
+}
+
+.content div {
+  width:500px;
+  height:400px;
+  background: linear-gradient(to right, #ffcc99 0%, #996633 77%);
+  text-align:  center;
+  vertical-align: middle;
+  font-size:20px;
+  font-family: 'Andale Mono', monospace;
+}
+
+.content h1{
+  text-align:  center;
+  vertical-align: middle;
+  font-size:20px;
+  font-family: 'Andale Mono', monospace;
+}
