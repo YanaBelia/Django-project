@@ -1,5 +1,4 @@
 db.sqlite3
-/static
 /Project/__pycache__/
 /my_site/__pycache__/
 /my_site/migrations/__pycache__/
