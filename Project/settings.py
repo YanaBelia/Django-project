@@ -136,6 +136,7 @@ STATICFILES_DIRS = [
 ]
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = '/home/IvannaBelia/Django-project/static'
 
 MEDIA_ROOT = r"C:\Users\Public.DESKTOP-T5DRGJP\Desktop\My_code\Project\static\images"
 MEDIA_URL = '/media/'
